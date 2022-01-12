@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vedlogic Video Player</title>
+    <link rel="stylesheet" href="src/css/pure_player.css">
+</head>
+<body>
+
+<canvas id="canvas-element" class="canvas"></canvas>
+<video class="my-player"  src="src/video/NatureVideo.mp4" crossorigin="anonymous"></video>
+
+<script src="src/js/pure_player.js"></script>
+<script type="text/javascript">
+    document.querySelector('.my-player').purePlayer({'autoplay': true});
+</script>
+</body>
+</html>
